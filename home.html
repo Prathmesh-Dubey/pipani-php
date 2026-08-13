@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pipani Advertising — Advertising · PR · Massive Impact</title>
+    <meta name="description"
+        content="7 Years of PIPANI ADVERTISING - India's premier full-service advertising agency offering Offline, Transit, Digital, and Non-Traditional media solutions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Poppins:wght@600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        /* ===== CSS VARIABLES ===== */
+        :root {
+            --primary: #E61A27;
+            --primary-dark: #C4101B;
+            --primary-light: #FF4D5A;
+            --primary-gradient: linear-gradient(135deg, #E61A27 0%, #C4101B 100%);
+            --secondary-dark: #0A0A0A;
+            --secondary-light: #1A1A1A;
+            --text-primary: #0A0A0A;
+            --text-secondary: #4A4A4A;
+            --text-light: #FFFFFF;
+            --bg-light: #F6F7F9;
+            --bg-white: #FFFFFF;
+            --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 8px 40px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 20px 80px rgba(0, 0, 0, 0.12);
+            --shadow-xl: 0 40px 120px rgba(0, 0, 0, 0.18);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --transition-slow: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --max-width: 1280px;
+            --section-padding: 100px 0;
+            --glass-bg: rgba(255, 255, 255, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.2);
+        }
+
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+            background: var(--bg-white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        /* ===== UTILITY ===== */
+        .section-badge {
+            display: inline-block;
+            background: rgba(230, 26, 39, 0.08);
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 20px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(230, 26, 39, 0.1);
+        }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: clamp(2.2rem, 4vw, 3.6rem);
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+
+        .section-title .highlight {
+            color: var(--primary);
+            position: relative;
+        }
+
+        .section-title .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: var(--primary);
+            opacity: 0.2;
+            border-radius: 4px;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: clamp(1rem, 1.1vw, 1.2rem);
+            max-width: 600px;
+            line-height: 1.8;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .mt-16 {
+            margin-top: 16px;
+        }
+
+        .mt-24 {
+            margin-top: 24px;
+        }
+
+        .mt-48 {
+            margin-top: 48px;
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--primary-gradient);
+            color: var(--text-light);
+            font-weight: 600;
+            padding: 16px 40px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(230, 26, 39, 0.3);
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, #C4101B 0%, #E61A27 100%);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .btn-primary:hover::before {
+            opacity: 1;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(230, 26, 39, 0.4);
+        }
+
+        .btn-primary span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-primary i {
+            position: relative;
+            z-index: 1;
+            transition: var(--transition);
+        }
+
+        .btn-primary:hover i {
+            transform: translateX(4px);
+        }
+
+        .btn-outline {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: transparent;
+            color: var(--text-light);
+            font-weight: 600;
+            padding: 14px 36px;
+            border-radius: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.25);
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1rem;
+            backdrop-filter: blur(4px);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--text-light);
+            transform: translateY(-3px);
+        }
+
+        /* ===== SCROLL PROGRESS ===== */
+        #scrollProgress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--primary-gradient);
+            z-index: 9999;
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        /* ===== NAVIGATION ===== */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 18px 0;
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            box-shadow: 0 1px 40px rgba(0, 0, 0, 0.06);
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.6rem;
+            color: var(--text-light);
+            transition: var(--transition);
+            letter-spacing: -0.5px;
+        }
+
+        .navbar.scrolled .logo {
+            color: var(--text-primary);
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: var(--transition);
+            position: relative;
+            letter-spacing: 0.3px;
+        }
+
+        .navbar.scrolled .nav-links a {
+            color: var(--text-secondary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: var(--transition);
+            border-radius: 2px;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-light);
+        }
+
+        .navbar.scrolled .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links .btn-nav {
+            background: var(--primary-gradient);
+            color: var(--text-light) !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            box-shadow: 0 4px 16px rgba(230, 26, 39, 0.25);
+        }
+
+        .nav-links .btn-nav::after {
+            display: none;
+        }
+
+        .nav-links .btn-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(230, 26, 39, 0.35);
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1001;
+            padding: 4px;
+        }
+
+        .menu-toggle span {
+            display: block;
+            width: 28px;
+            height: 2.5px;
+            background: var(--text-light);
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled .menu-toggle span {
+            background: var(--text-primary);
+        }
+
+        .menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 6px);
+        }
+
+        .menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        .menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -6px);
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: var(--secondary-dark);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(230, 26, 39, 0.15) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(230, 26, 39, 0.08) 0%, transparent 50%),
+                linear-gradient(180deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0.4) 100%);
+            z-index: 1;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+
+        .hero-content h1 {
+            color: var(--text-light);
+            font-size: clamp(2.8rem, 5.5vw, 5rem);
+            font-weight: 900;
+            line-height: 1.05;
+            margin-bottom: 24px;
+            letter-spacing: -1px;
+        }
+
+        .hero-content h1 .highlight {
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero-content h1 .highlight .underline {
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: var(--primary);
+            opacity: 0.25;
+            border-radius: 4px;
+        }
+
+        .hero-content p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: clamp(1.1rem, 1.3vw, 1.3rem);
+            max-width: 520px;
+            margin-bottom: 36px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+
+        .hero-trust {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .hero-trust .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.85rem;
+        }
+
+        .hero-trust .trust-item i {
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-main-img {
+            width: 100%;
+            max-width: 440px;
+            border-radius: var(--radius-lg);
+            box-shadow: 0 20px 60px rgba(230, 26, 39, 0.2), 0 0 40px rgba(230, 26, 39, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            position: relative;
+            z-index: 1;
+            transition: var(--transition-slow);
+        }
+
+        .hero-visual:hover .hero-main-img {
+            transform: translateY(-4px);
+            box-shadow: 0 30px 80px rgba(230, 26, 39, 0.25), 0 0 50px rgba(230, 26, 39, 0.15);
+        }
+
+        .hero-visual .floating-grid {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            z-index: 2;
+            pointer-events: none;
+            max-width: 500px;
+        }
+
+        .floating-item {
+            background: rgba(10, 10, 10, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            text-align: center;
+            transition: var(--transition);
+            animation: floatY 4s ease-in-out infinite;
+            pointer-events: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .floating-item:nth-child(1) {
+            justify-self: start;
+            align-self: start;
+            margin-left: -30px;
+            margin-top: -10px;
+            animation-delay: 0s;
+        }
+
+        .floating-item:nth-child(2) {
+            justify-self: end;
+            align-self: start;
+            margin-right: -30px;
+            margin-top: 30px;
+            animation-delay: 0.5s;
+        }
+
+        .floating-item:nth-child(3) {
+            justify-self: start;
+            align-self: end;
+            margin-left: -20px;
+            margin-bottom: 20px;
+            animation-delay: 1s;
+        }
+
+        .floating-item:nth-child(4) {
+            justify-self: end;
+            align-self: end;
+            margin-right: -40px;
+            margin-bottom: -10px;
+            animation-delay: 1.5s;
+        }
+
+        .floating-item:hover {
+            transform: translateY(-6px) scale(1.05);
+            background: rgba(230, 26, 39, 0.85);
+            border-color: var(--primary-light);
+            box-shadow: 0 10px 30px rgba(230, 26, 39, 0.3);
+        }
+
+        .floating-item:hover i {
+            color: var(--text-light);
+        }
+
+        .floating-item:hover span {
+            color: var(--text-light);
+        }
+
+        .floating-item i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .floating-thumb {
+            width: 50px;
+            height: 50px;
+            border-radius: var(--radius-sm);
+            object-fit: cover;
+            margin-bottom: 8px;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            transition: var(--transition);
+        }
+
+        .floating-item:hover .floating-thumb {
+            border-color: var(--text-light);
+            transform: scale(1.1);
+        }
+
+        .floating-item span {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: block;
+        }
+
+        @keyframes floatY {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 48px;
+            margin-top: 40px;
+        }
+
+        .hero-stats .stat-item .number {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: clamp(2rem, 3vw, 3.2rem);
+            color: var(--text-light);
+        }
+
+        .hero-stats .stat-item .number .suffix {
+            color: var(--primary);
+        }
+
+        .hero-stats .stat-item .label {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* ===== CLIENTS MARQUEE ===== */
+        .clients {
+            padding: 60px 0;
+            background: var(--bg-white);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+            overflow: hidden;
+        }
+
+        .clients .container {
+            overflow: hidden;
+        }
+
+        .clients-marquee {
+            display: flex;
+            gap: 60px;
+            animation: marquee 30s linear infinite;
+            width: max-content;
+        }
+
+        .clients-marquee .client-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            opacity: 0.5;
+            transition: var(--transition);
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            padding: 0 8px;
+        }
+
+        .clients-marquee .client-item i {
+            color: var(--primary);
+            font-size: 1.2rem;
+            opacity: 0.4;
+        }
+
+        .clients-marquee .client-item:hover {
+            opacity: 1;
+            color: var(--text-primary);
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* ===== ABOUT ===== */
+        .about {
+            padding: var(--section-padding);
+            background: var(--bg-light);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(230, 26, 39, 0.04) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image .image-wrapper {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1rem;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+        }
+
+        .about-image .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            inset: 0;
+            transition: var(--transition-slow);
+        }
+
+        .about-image .image-wrapper:hover img {
+            transform: scale(1.05);
+        }
+
+        .about-image .image-wrapper i {
+            font-size: 4rem;
+            opacity: 0.3;
+            margin-bottom: 16px;
+        }
+
+        .about-image .exp-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--bg-white);
+            padding: 20px 28px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+        }
+
+        .about-image .exp-badge .number {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 2.2rem;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .about-image .exp-badge .label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .about-content .about-tagline {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+
+        .about-content p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 24px;
+            margin: 24px 0 32px;
+        }
+
+        .about-features li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .about-features li i {
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .about-timeline {
+            display: flex;
+            gap: 40px;
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .about-timeline .milestone {
+            text-align: center;
+        }
+
+        .about-timeline .milestone .year {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .about-timeline .milestone .desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* ===== SERVICES ===== */
+        .services {
+            padding: var(--section-padding);
+            background: var(--bg-white);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 56px;
+        }
+
+        .service-card {
+            background: var(--bg-white);
+            border-radius: var(--radius-md);
+            padding: 36px 28px;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--primary-gradient);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(230, 26, 39, 0.1);
+        }
+
+        .service-card .icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(230, 26, 39, 0.06);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+
+        .service-card:hover .icon {
+            background: var(--primary);
+            color: var(--text-light);
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+
+        .service-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        .service-card .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .service-card .benefits span {
+            background: var(--bg-light);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .service-card .learn-more {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+
+        .service-card .learn-more i {
+            transition: var(--transition);
+        }
+
+        .service-card .learn-more:hover {
+            gap: 12px;
+        }
+
+        /* ===== PORTFOLIO ===== */
+        .portfolio {
+            padding: var(--section-padding);
+            background: var(--bg-light);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .portfolio-item {
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            position: relative;
+            aspect-ratio: 4/3;
+            background: linear-gradient(135deg, #1a1a2e, #2d2d44);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .portfolio-item .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, transparent 60%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 24px;
+            color: var(--text-light);
+        }
+
+        .portfolio-item .overlay .tag {
+            display: inline-block;
+            background: rgba(230, 26, 39, 0.8);
+            padding: 2px 12px;
+            border-radius: 50px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            width: fit-content;
+        }
+
+        .portfolio-item .overlay h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .portfolio-item .overlay p {
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .portfolio-item .placeholder-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            color: rgba(255, 255, 255, 0.1);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* ===== INDUSTRIES ===== */
+        .industries {
+            padding: var(--section-padding);
+            background: var(--bg-white);
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            margin-top: 48px;
+        }
+
+        .industry-item {
+            background: var(--bg-light);
+            padding: 24px 16px;
+            border-radius: var(--radius-sm);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        .industry-item:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .industry-item i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .industry-item span {
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        /* ===== STATISTICS ===== */
+        .statistics {
+            padding: 80px 0;
+            background: var(--secondary-dark);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .statistics::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse at 30% 50%, rgba(230, 26, 39, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(230, 26, 39, 0.05) 0%, transparent 50%);
+        }
+
+        .statistics .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .statistics .section-title {
+            color: var(--text-light);
+        }
+
+        .statistics .section-subtitle {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 40px;
+            margin-top: 56px;
+        }
+
+        .stats-grid .stat-item {
+            text-align: center;
+        }
+
+        .stats-grid .stat-item .number {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: clamp(2.2rem, 3.5vw, 3.8rem);
+            color: var(--text-light);
+            line-height: 1;
+        }
+
+        .stats-grid .stat-item .number .suffix {
+            color: var(--primary);
+        }
+
+        .stats-grid .stat-item .label {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        /* ===== PROCESS ===== */
+        .process {
+            padding: var(--section-padding);
+            background: var(--bg-light);
+        }
+
+        .process-timeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 56px;
+            position: relative;
+        }
+
+        .process-timeline::before {
+            content: '';
+            position: absolute;
+            top: 36px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: rgba(230, 26, 39, 0.15);
+            z-index: 0;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .process-step .step-number {
+            width: 72px;
+            height: 72px;
+            background: var(--primary-gradient);
+            color: var(--text-light);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 8px 30px rgba(230, 26, 39, 0.25);
+            position: relative;
+        }
+
+        .process-step .step-number::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            border: 2px solid rgba(230, 26, 39, 0.15);
+        }
+
+        .process-step h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+
+        .process-step p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* ===== WHY CHOOSE US ===== */
+        .why {
+            padding: var(--section-padding);
+            background: var(--bg-white);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            margin-top: 48px;
+        }
+
+        .why-item {
+            padding: 32px 24px;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            text-align: center;
+            transition: var(--transition);
+            background: var(--bg-white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .why-item:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(230, 26, 39, 0.1);
+        }
+
+        .why-item .icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(230, 26, 39, 0.06);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 1.4rem;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+
+        .why-item:hover .icon {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+
+        .why-item h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+
+        .why-item p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* ===== TESTIMONIALS ===== */
+        .testimonials {
+            padding: var(--section-padding);
+            background: var(--bg-light);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 48px;
+        }
+
+        .testimonial-card {
+            background: var(--bg-white);
+            padding: 32px 28px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            transition: var(--transition);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .testimonial-card .stars {
+            color: #FBBF24;
+            margin-bottom: 12px;
+            font-size: 0.9rem;
+        }
+
+        .testimonial-card .quote {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+        .testimonial-card .author {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .testimonial-card .author .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--bg-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+        }
+
+        .testimonial-card .author .info .name {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-card .author .info .company {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* ===== FAQ ===== */
+        .faq {
+            padding: var(--section-padding);
+            background: var(--bg-white);
+        }
+
+        .faq-list {
+            max-width: 820px;
+            margin: 48px auto 0;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            padding: 20px 0;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .faq-item:first-child {
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .faq-item .question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1.05rem;
+            gap: 20px;
+        }
+
+        .faq-item .question i {
+            transition: var(--transition);
+            color: var(--primary);
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .faq-item.active .question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-item .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            color: var(--text-secondary);
+            padding-top: 0;
+            line-height: 1.7;
+        }
+
+        .faq-item.active .answer {
+            max-height: 300px;
+            padding-top: 12px;
+        }
+
+        /* ===== CONTACT ===== */
+        .contact {
+            padding: var(--section-padding);
+            background: var(--bg-light);
+            position: relative;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(230, 26, 39, 0.03) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .contact-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 48px;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-card {
+            background: var(--bg-white);
+            border-radius: var(--radius-md);
+            padding: 32px 24px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(230, 26, 39, 0.1);
+        }
+
+        .contact-card .card-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(230, 26, 39, 0.06);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+
+        .contact-card:hover .card-icon {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+
+        .contact-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 0 0 6px;
+        }
+
+        .contact-card .role {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+
+        .contact-card .desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0 0 12px;
+            line-height: 1.4;
+        }
+
+        .contact-card .contact-link {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+
+        .contact-card .contact-link i {
+            font-size: 0.85rem;
+            color: var(--primary);
+            opacity: 0.8;
+        }
+
+        .contact-card .contact-link:hover {
+            color: var(--primary);
+        }
+
+        .contact-card .badge-mini {
+            background: rgba(0, 0, 0, 0.04);
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-top: auto;
+        }
+
+        /* Bottom Row - Balanced Grid Form and Map */
+        .contact-main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: stretch;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-form {
+            background: var(--bg-white);
+            border-radius: var(--radius-md);
+            padding: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .contact-form .form-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: var(--radius-sm);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+            margin-bottom: 16px;
+            background: var(--bg-white);
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(230, 26, 39, 0.06);
+        }
+
+        .contact-form textarea {
+            min-height: 140px;
+            resize: vertical;
+            margin-bottom: 20px;
+        }
+
+        .contact-form .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .contact-map-wrapper {
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: var(--shadow-sm);
+            height: 100%;
+            min-height: 400px;
+            position: relative;
+        }
+
+        .contact-map-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--secondary-dark);
+            color: rgba(255, 255, 255, 0.6);
+            padding: 80px 0 30px;
+            position: relative;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(230, 26, 39, 0.2), transparent);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand .logo {
+            color: var(--text-light);
+            font-size: 1.8rem;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand p {
+            font-size: 0.9rem;
+            max-width: 300px;
+            line-height: 1.7;
+        }
+
+        .footer-brand .socials {
+            display: flex;
+            gap: 14px;
+            margin-top: 16px;
+        }
+
+        .footer-brand .socials a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .footer-brand .socials a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .footer h4 {
+            color: var(--text-light);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            letter-spacing: 0.3px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer ul a {
+            transition: var(--transition);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer ul a:hover {
+            color: var(--primary);
+        }
+
+        .footer-newsletter {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .footer-newsletter input {
+            flex: 1;
+            padding: 10px 16px;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .footer-newsletter input::placeholder {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .footer-newsletter button {
+            background: var(--primary-gradient);
+            border: none;
+            color: var(--text-light);
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: var(--transition);
+        }
+
+        .footer-newsletter button:hover {
+            transform: scale(1.02);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.85rem;
+        }
+
+        .footer-bottom .links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-bottom .links a {
+            color: rgba(255, 255, 255, 0.3);
+            transition: var(--transition);
+        }
+
+        .footer-bottom .links a:hover {
+            color: var(--text-light);
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 32px;
+            right: 32px;
+            width: 48px;
+            height: 48px;
+            background: var(--primary-gradient);
+            color: var(--text-light);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 8px 30px rgba(230, 26, 39, 0.3);
+            transition: var(--transition);
+            opacity: 0;
+            transform: translateY(20px);
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(230, 26, 39, 0.4);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1200px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding-top: 120px;
+                gap: 40px;
+            }
+
+            .hero-visual {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .hero-visual .floating-grid {
+                position: relative;
+                width: 100%;
+                height: auto;
+                max-width: 440px;
+                margin-top: 24px;
+            }
+
+            .floating-item {
+                margin: 0 !important;
+                justify-self: auto !important;
+                align-self: auto !important;
+                width: auto !important;
+                height: auto !important;
+                background: rgba(255, 255, 255, 0.04);
+            }
+
+            .hero-content p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-trust {
+                justify-content: center;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .about-image .exp-badge {
+                right: 10px;
+                bottom: -10px;
+                padding: 14px 20px;
+            }
+
+            .contact-cards-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .contact-main-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .contact-map-wrapper {
+                height: 350px;
+                min-height: auto;
+            }
+
+            .contact-form {
+                padding: 30px 20px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .process-timeline::before {
+                display: none;
+            }
+
+            .about-timeline {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            .contact-form .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            :root {
+                --section-padding: 60px 0;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 280px;
+                height: 100vh;
+                background: var(--bg-white);
+                flex-direction: column;
+                justify-content: center;
+                gap: 24px;
+                padding: 40px 32px;
+                box-shadow: -20px 0 60px rgba(0, 0, 0, 0.1);
+                transition: var(--transition);
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links a {
+                color: var(--text-primary) !important;
+                font-size: 1.1rem;
+            }
+
+            .nav-links .btn-nav {
+                color: var(--text-light) !important;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .hero .container {
+                padding-top: 100px;
+            }
+
+            .hero-visual .floating-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+
+            .floating-item {
+                padding: 16px 12px;
+            }
+
+            .floating-item i {
+                font-size: 1.4rem;
+            }
+
+            .floating-thumb {
+                width: 36px;
+                height: 36px;
+                margin-bottom: 6px;
+                border-width: 1px;
+            }
+
+            .floating-item span {
+                font-size: 0.7rem;
+            }
+
+            .hero-stats {
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 24px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-bottom .links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 44px;
+                height: 44px;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 2.4rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-buttons .btn-primary,
+            .hero-buttons .btn-outline {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-visual .floating-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .stats-grid .stat-item .number {
+                font-size: 1.8rem;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .industries-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-timeline {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== SCROLL PROGRESS ===== -->
+    <div id="scrollProgress"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Pipani Advertising Home">Pipani<span>.</span></a>
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#about" role="menuitem">About</a></li>
+                <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                <li role="none"><a href="#portfolio" role="menuitem">Portfolio</a></li>
+                <li role="none"><a href="#clients" role="menuitem">Clients</a></li>
+                <li role="none"><a href="#contact" class="btn-nav" role="menuitem">Get a Quote</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero" aria-label="Hero Section">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="800">
+                <span class="section-badge"
+                    style="background:rgba(230,26,39,0.15);color:#fff;border-color:rgba(255,255,255,0.08);">7 Years of
+                    Excellence</span>
+                <h1>
+                    Making a <br />
+                    <span class="highlight">
+                        Massive Impact
+                        <span class="underline"></span>
+                    </span>
+                    Since 2017
+                </h1>
+                <p>India's premier full-service advertising agency — delivering Offline, Transit, Digital, and
+                    Non-Traditional media solutions that create lasting impressions and measurable results.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn-primary"><span>Explore Our Work</span> <i
+                            class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-outline">Get a Quote</a>
+                </div>
+                <div class="hero-trust">
+                    <span class="trust-item"><i class="fas fa-check-circle"></i> 7+ Years of Excellence</span>
+                    <span class="trust-item"><i class="fas fa-check-circle"></i> Full-Service Agency</span>
+                    <span class="trust-item"><i class="fas fa-check-circle"></i> Pan-India Presence</span>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                <img src="images/hero_visual.png" alt="Marketing & Advertising campaigns by Pipani"
+                    class="hero-main-img" />
+                <div class="floating-grid">
+                    <div class="floating-item">
+                        <img src="images/portfolio_hoarding.png" alt="Hoardings" class="floating-thumb" />
+                        <span>Hoardings</span>
+                    </div>
+                    <div class="floating-item">
+                        <img src="images/portfolio_bus.png" alt="Transit" class="floating-thumb" />
+                        <span>Transit</span>
+                    </div>
+                    <div class="floating-item">
+                        <img src="images/portfolio_airport.png" alt="Airport" class="floating-thumb" />
+                        <span>Airport</span>
+                    </div>
+                    <div class="floating-item">
+                        <img src="images/portfolio_metro.png" alt="Metro" class="floating-thumb" />
+                        <span>Metro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CLIENTS MARQUEE ===== -->
+    <section class="clients" id="clients" aria-label="Our Clients">
+        <div class="container">
+            <div class="clients-marquee">
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" stroke="#0B5CA7" stroke-width="8" />
+                        <path d="M50 25V75M30 35H70" stroke="#0B5CA7" stroke-width="12" stroke-linecap="round" />
+                    </svg>
+                    Tata Group
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#0C489C" />
+                        <path d="M30 70V30H50C60 30 65 35 65 42.5C65 50 60 55 50 55H30M50 55L70 70" stroke="#E31E24"
+                            stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Reliance
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <path
+                            d="M50 15C30.67 15 15 30.67 15 50C15 69.33 30.67 85 50 85C69.33 85 85 69.33 85 50C85 30.67 69.33 15 50 15ZM50 25V60C50 65.52 45.52 70 40 70C34.48 70 30 65.52 30 60"
+                            stroke="#E11B22" stroke-width="10" stroke-linecap="round" />
+                    </svg>
+                    Airtel
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" fill="#0F3E99" />
+                        <path d="M40 30H55V60C55 68 48 72 40 70" stroke="#FFFFFF" stroke-width="10"
+                            stroke-linecap="round" />
+                        <circle cx="65" cy="30" r="6" fill="#FFFFFF" />
+                    </svg>
+                    Jio
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#E23744" />
+                        <path
+                            d="M50 75C50 75 25 55 25 38C25 26.95 33.95 18 45 18C47.2 18 48.6 19.5 50 21C51.4 19.5 52.8 18 55 18C66.05 18 75 26.95 75 38C75 55 50 75 50 75Z"
+                            fill="#FFFFFF" />
+                    </svg>
+                    Zomato
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" fill="#FFF200" stroke="#005A9C" stroke-width="4" />
+                        <path d="M30 70L45 25H55L70 70M37 55H63" stroke="#D2232A" stroke-width="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Amul
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <path d="M25 25H75L25 75H75" stroke="#002C6C" stroke-width="14" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Maruti Suzuki
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#00B9F5" />
+                        <path d="M35 30H65M50 30V70" stroke="#002E6E" stroke-width="12" stroke-linecap="round" />
+                    </svg>
+                    Paytm
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#004C8F" />
+                        <rect x="25" y="25" width="50" height="50" fill="#FFFFFF" />
+                        <rect x="40" y="40" width="20" height="20" fill="#E31E24" />
+                    </svg>
+                    HDFC Bank
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#007CC3" />
+                        <path d="M35 25H65M35 75H65M50 25V75" stroke="#FFFFFF" stroke-width="12"
+                            stroke-linecap="round" />
+                    </svg>
+                    Infosys
+                </span>
+                <!-- Duplicate for seamless loop -->
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" stroke="#0B5CA7" stroke-width="8" />
+                        <path d="M50 25V75M30 35H70" stroke="#0B5CA7" stroke-width="12" stroke-linecap="round" />
+                    </svg>
+                    Tata Group
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#0C489C" />
+                        <path d="M30 70V30H50C60 30 65 35 65 42.5C65 50 60 55 50 55H30M50 55L70 70" stroke="#E31E24"
+                            stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Reliance
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <path
+                            d="M50 15C30.67 15 15 30.67 15 50C15 69.33 30.67 85 50 85C69.33 85 85 69.33 85 50C85 30.67 69.33 15 50 15ZM50 25V60C50 65.52 45.52 70 40 70C34.48 70 30 65.52 30 60"
+                            stroke="#E11B22" stroke-width="10" stroke-linecap="round" />
+                    </svg>
+                    Airtel
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" fill="#0F3E99" />
+                        <path d="M40 30H55V60C55 68 48 72 40 70" stroke="#FFFFFF" stroke-width="10"
+                            stroke-linecap="round" />
+                        <circle cx="65" cy="30" r="6" fill="#FFFFFF" />
+                    </svg>
+                    Jio
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#E23744" />
+                        <path
+                            d="M50 75C50 75 25 55 25 38C25 26.95 33.95 18 45 18C47.2 18 48.6 19.5 50 21C51.4 19.5 52.8 18 55 18C66.05 18 75 26.95 75 38C75 55 50 75 50 75Z"
+                            fill="#FFFFFF" />
+                    </svg>
+                    Zomato
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <circle cx="50" cy="50" r="45" fill="#FFF200" stroke="#005A9C" stroke-width="4" />
+                        <path d="M30 70L45 25H55L70 70M37 55H63" stroke="#D2232A" stroke-width="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Amul
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <path d="M25 25H75L25 75H75" stroke="#002C6C" stroke-width="14" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Maruti Suzuki
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#00B9F5" />
+                        <path d="M35 30H65M50 30V70" stroke="#002E6E" stroke-width="12" stroke-linecap="round" />
+                    </svg>
+                    Paytm
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#004C8F" />
+                        <rect x="25" y="25" width="50" height="50" fill="#FFFFFF" />
+                        <rect x="40" y="40" width="20" height="20" fill="#E31E24" />
+                    </svg>
+                    HDFC Bank
+                </span>
+                <span class="client-item">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        style="width:28px;height:28px;">
+                        <rect width="100" height="100" rx="20" fill="#007CC3" />
+                        <path d="M35 25H65M35 75H65M50 25V75" stroke="#FFFFFF" stroke-width="12"
+                            stroke-linecap="round" />
+                    </svg>
+                    Infosys
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about" aria-label="About Us">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="800">
+                    <div class="image-wrapper">
+                        <img src="images/about_team.png" alt="Pipani Advertising Creative Team" loading="lazy" />
+                    </div>
+                    <div class="exp-badge">
+                        <div class="number">7+</div>
+                        <div class="label">Years of Impact</div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">Who We <span class="highlight">Are</span></h2>
+                    <p class="about-tagline">Advertising · PR · Massive Impact</p>
+                    <p>For over 7 years, Pipani Advertising has been at the forefront of the advertising industry,
+                        helping brands achieve massive impact. As a part of the PIPANI ADVERTISING Group and operating
+                        through Adnest Communications LLP, we are a full-service powerhouse specializing in a diverse
+                        range of media.</p>
+                    <p>From traditional outdoor and transit advertising to innovative digital and non-traditional
+                        solutions, our mission is to deliver unparalleled visibility and brand awareness across every
+                        touchpoint.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> 7+ Years of Excellence</li>
+                        <li><i class="fas fa-check-circle"></i> Full-Service Agency</li>
+                        <li><i class="fas fa-check-circle"></i> Pan-India Presence</li>
+                        <li><i class="fas fa-check-circle"></i> 9 Service Categories</li>
+                    </ul>
+                    <div class="about-timeline">
+                        <div class="milestone">
+                            <div class="year">2017</div>
+                            <div class="desc">Founded</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2020</div>
+                            <div class="desc">Expanded Pan-India</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2024</div>
+                            <div class="desc">9 Service Verticals</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services" aria-label="Our Services">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+                <p class="section-subtitle mx-auto">Comprehensive advertising solutions across all media channels to
+                    maximize your brand's reach and impact.</p>
+            </div>
+            <div class="services-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-billboard"></i></div>
+                    <h3>Offline Media</h3>
+                    <p>Hoardings, bus shelters, pole kiosks, railway stations, airport branding, and more.</p>
+                    <div class="benefits"><span>71% Read Rate</span><span>High Visibility</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-bus"></i></div>
+                    <h3>Transit Media</h3>
+                    <p>Bus, train, metro, auto, cab, in-flight, and road show branding solutions.</p>
+                    <div class="benefits"><span>80% Response</span><span>24/7 Visibility</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-radio"></i></div>
+                    <h3>Electronic Media</h3>
+                    <p>Radio and television advertising for maximum reach and brand recall.</p>
+                    <div class="benefits"><span>Mass Reach</span><span>High Recall</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-film"></i></div>
+                    <h3>Cinema Branding</h3>
+                    <p>On-screen and off-screen advertising in cinemas across India.</p>
+                    <div class="benefits"><span>Captive Audience</span><span>High Impact</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-store"></i></div>
+                    <h3>Ambient Media</h3>
+                    <p>Mall, restaurant, café, and pub branding for targeted audience engagement.</p>
+                    <div class="benefits"><span>Targeted</span><span>High Engagement</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <h3>Print Media</h3>
+                    <p>Newspaper and magazine advertising with wide circulation and long shelf life.</p>
+                    <div class="benefits"><span>Credible</span><span>Long-lasting</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Non-Traditional Media</h3>
+                    <p>Standees, dealer boards, one-way vision, wall painting, OTT, influencer marketing & more.</p>
+                    <div class="benefits"><span>Innovative</span><span>High Impact</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-gift"></i></div>
+                    <h3>Corporate Gifting</h3>
+                    <p>Premium corporate gifts, branded merchandise, and promotional items for your brand.</p>
+                    <div class="benefits"><span>Premium</span><span>Brand Recall</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-cricket-bat-ball"></i></div>
+                    <h3>Sports &amp; Showbiz</h3>
+                    <p>Jersey sponsorships, sports gear branding, and entertainment industry advertising.</p>
+                    <div class="benefits"><span>Massive Reach</span><span>High Engagement</span></div>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="portfolio" id="portfolio" aria-label="Portfolio">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Campaign <span class="highlight">Showcase</span></h2>
+                <p class="section-subtitle mx-auto">Real-world advertising campaigns that delivered massive impact for
+                    our clients.</p>
+            </div>
+            <div class="portfolio-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="portfolio-item">
+                    <img src="images/portfolio_hoarding.png" alt="Hoardings Campaign" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Outdoor</span>
+                        <h4>Hoardings Campaign</h4>
+                        <p>High-traffic locations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_bus.png" alt="Bus Branding" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Transit</span>
+                        <h4>Bus Branding</h4>
+                        <p>City-wide coverage</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_metro.png" alt="Metro Branding" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Transit</span>
+                        <h4>Metro Branding</h4>
+                        <p>High-visibility routes</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_airport.png" alt="Airport Advertising" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Outdoor</span>
+                        <h4>Airport Advertising</h4>
+                        <p>Captive audience</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_mall.png" alt="Mall Branding" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Ambient</span>
+                        <h4>Mall Branding</h4>
+                        <p>High footfall locations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_cinema.png" alt="Cinema Advertising" loading="lazy" />
+                    <div class="overlay">
+                        <span class="tag">Cinema</span>
+                        <h4>Cinema Advertising</h4>
+                        <p>On-screen &amp; off-screen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INDUSTRIES ===== -->
+    <section class="industries" id="industries" aria-label="Industries We Serve">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Industries</span>
+                <h2 class="section-title">Sectors We <span class="highlight">Serve</span></h2>
+                <p class="section-subtitle mx-auto">Expert advertising solutions tailored to your industry's unique
+                    needs.</p>
+            </div>
+            <div class="industries-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="industry-item"><i class="fas fa-building"></i><span>Real Estate</span></div>
+                <div class="industry-item"><i class="fas fa-heart-pulse"></i><span>Healthcare</span></div>
+                <div class="industry-item"><i class="fas fa-graduation-cap"></i><span>Education</span></div>
+                <div class="industry-item"><i class="fas fa-cart-shopping"></i><span>Retail</span></div>
+                <div class="industry-item"><i class="fas fa-car"></i><span>Automobile</span></div>
+                <div class="industry-item"><i class="fas fa-utensils"></i><span>Hospitality</span></div>
+                <div class="industry-item"><i class="fas fa-landmark"></i><span>Government</span></div>
+                <div class="industry-item"><i class="fas fa-vote-yea"></i><span>Political</span></div>
+                <div class="industry-item"><i class="fas fa-box-open"></i><span>FMCG</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATISTICS ===== -->
+    <section class="statistics" id="statistics" aria-label="Our Impact in Numbers">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge"
+                    style="background:rgba(230,26,39,0.15);color:#fff;border-color:rgba(255,255,255,0.08);">Our
+                    Impact</span>
+                <h2 class="section-title" style="color:var(--text-light);">By the <span class="highlight">Numbers</span>
+                </h2>
+                <p class="section-subtitle mx-auto" style="color:rgba(255,255,255,0.5);">Measurable results that speak
+                    for themselves.</p>
+            </div>
+            <div class="stats-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="7">0</span><span class="suffix">+</span>
+                    </div>
+                    <div class="label">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="500">0</span><span class="suffix">+</span>
+                    </div>
+                    <div class="label">Campaigns Executed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="200">0</span><span class="suffix">+</span>
+                    </div>
+                    <div class="label">Brands Served</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="50">0</span><span class="suffix">+</span>
+                    </div>
+                    <div class="label">Cities Covered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="5000">0</span><span class="suffix">+</span>
+                    </div>
+                    <div class="label">Media Assets</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number"><span class="counter" data-target="10">0</span><span class="suffix">M+</span>
+                    </div>
+                    <div class="label">Daily Reach</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="process" id="process" aria-label="Our Process">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Our Process</span>
+                <h2 class="section-title">How We <span class="highlight">Work</span></h2>
+                <p class="section-subtitle mx-auto">A streamlined approach to deliver exceptional advertising solutions
+                    for your brand.</p>
+            </div>
+            <div class="process-timeline" data-aos="fade-up" data-aos-delay="100">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h4>Discovery</h4>
+                    <p>Understanding your brand, goals, and target audience</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h4>Strategy</h4>
+                    <p>Developing a tailored media plan for maximum impact</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h4>Execution</h4>
+                    <p>Flawless implementation across chosen media channels</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h4>Analysis</h4>
+                    <p>Measuring results and optimizing for continued success</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why" id="why" aria-label="Why Choose Us">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Why Pipani</span>
+                <h2 class="section-title">Why Choose <span class="highlight">Us</span></h2>
+                <p class="section-subtitle mx-auto">We deliver measurable results through strategic advertising
+                    solutions that create massive impact.</p>
+            </div>
+            <div class="why-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="why-item">
+                    <div class="icon"><i class="fas fa-eye"></i></div>
+                    <h4>71% Read Rate</h4>
+                    <p>71% of people read hoardings carefully while driving</p>
+                </div>
+                <div class="why-item">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h4>80% Response</h4>
+                    <p>80% of consumers react to bus ads by purchasing</p>
+                </div>
+                <div class="why-item">
+                    <div class="icon"><i class="fas fa-rocket"></i></div>
+                    <h4>50%+ Growth</h4>
+                    <p>50%+ increase in purchase via OTT ads in Q2 2020</p>
+                </div>
+                <div class="why-item">
+                    <div class="icon"><i class="fas fa-clock"></i></div>
+                    <h4>24/7 Visibility</h4>
+                    <p>Round-the-clock visibility through cab and transit advertising</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" id="testimonials" aria-label="Testimonials">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+                <p class="section-subtitle mx-auto">Real feedback from real clients who have experienced massive impact.
+                </p>
+            </div>
+            <div class="testimonials-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"Pipani Advertising delivered exceptional results for our brand. Their transit
+                        media campaign reached millions and drove significant footfall."</p>
+                    <div class="author">
+                        <div class="avatar">RK</div>
+                        <div class="info">
+                            <div class="name">Rahul Khanna</div>
+                            <div class="company">Brand X, Marketing Head</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"The team's expertise in outdoor and digital media helped us achieve 3x ROI on our
+                        advertising spend. Highly recommended!"</p>
+                    <div class="author">
+                        <div class="avatar">PM</div>
+                        <div class="info">
+                            <div class="name">Priya Mehta</div>
+                            <div class="company">Brand Y, CEO</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"From hoardings to influencer marketing, Pipani's full-service approach made our
+                        campaign seamless and highly effective."</p>
+                    <div class="author">
+                        <div class="avatar">AS</div>
+                        <div class="info">
+                            <div class="name">Amit Singh</div>
+                            <div class="company">Brand Z, Brand Manager</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq" id="faq" aria-label="Frequently Asked Questions">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">FAQs</span>
+                <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                <p class="section-subtitle mx-auto">Find answers to the most common questions about our services.</p>
+            </div>
+            <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+                <div class="faq-item active">
+                    <div class="question"><span>What advertising services do you offer?</span> <i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="answer">We offer a comprehensive range of services including Offline Media, Transit
+                        Media, Electronic Media, Cinema Branding, Ambient Media, Print Media, Non-Traditional Media,
+                        Corporate Gifting, and Sports & Showbiz advertising. Each service is tailored to meet your
+                        specific brand objectives.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="question"><span>Which cities do you operate in?</span> <i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="answer">We have a strong presence across India with particular focus on Pune, Mumbai,
+                        Delhi, and other major metropolitan cities. Our railway station branding covers key stations
+                        like Pune, Pimpri, Chinchwad, Vadgaon, Lonavala, and many more across the country.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="question"><span>What is the minimum budget for advertising?</span> <i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="answer">Our advertising solutions are highly scalable. We work with brands of all sizes,
+                        from small businesses to large corporations. Contact us for a customized quote based on your
+                        specific requirements and campaign objectives.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="question"><span>How do I get started with Pipani Advertising?</span> <i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="answer">Simply reach out through our contact form or call our co-founders directly.
+                        We'll schedule a consultation to understand your needs and propose the best advertising strategy
+                        for your brand. You can also email us at yasin@pipaniadvertising.com or
+                        info.adnestcommunication@gmail.com.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact" aria-label="Contact Us">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Create <span class="highlight">Massive Impact</span></h2>
+                <p class="section-subtitle mx-auto">Ready to elevate your brand? Reach out to our team today.</p>
+            </div>
+            <div class="contact-cards-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-card">
+                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Yasin Jamadar</h3>
+                    <p class="role">Co-Founder</p>
+                    <a href="tel:+919766840787" class="contact-link"><i class="fas fa-phone"></i> +91 9766840787</a>
+                    <a href="mailto:yasin@pipaniadvertising.com" class="contact-link"><i class="fas fa-envelope"></i>
+                        yasin@pipaniadvertising.com</a>
+                    <span class="badge-mini">Management</span>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Iqbal Shaikh</h3>
+                    <p class="role">Co-Founder</p>
+                    <a href="tel:+919511244940" class="contact-link"><i class="fas fa-phone"></i> +91 9511244940</a>
+                    <a href="mailto:info.adnestcommunication@gmail.com" class="contact-link"><i
+                            class="fas fa-envelope"></i> info.adnestcommunication@gmail.com</a>
+                    <span class="badge-mini">Management</span>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon"><i class="fas fa-building"></i></div>
+                    <h3>Adnest Communications</h3>
+                    <p class="role">LLP - PIPANI Group</p>
+                    <p class="desc">Dhankawadi, Pune, Maharashtra 411043</p>
+                    <span class="badge-mini">Corporate Office</span>
+                </div>
+            </div>
+
+            <div class="contact-main-grid" data-aos="fade-up" data-aos-delay="200">
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Thank you! We will get back to you shortly.');">
+                    <h3 class="form-title">Send a Message</h3>
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required />
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <input type="tel" placeholder="Phone Number" />
+                    <textarea placeholder="Tell us about your advertising needs..." required></textarea>
+                    <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+                        <span>Send Message</span> <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+                <div class="contact-map-wrapper">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Pipani%20Advertising%20Dhankawadi%20Pune&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Pipani<span>.</span></a>
+                    <p>7 Years of making a Massive Impact. India's premier full-service advertising agency delivering
+                        measurable results across all media channels.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Offline Media</a></li>
+                        <li><a href="#services">Transit Media</a></li>
+                        <li><a href="#services">Electronic Media</a></li>
+                        <li><a href="#services">Corporate Gifting</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Industries</h4>
+                    <ul>
+                        <li><a href="#industries">Real Estate</a></li>
+                        <li><a href="#industries">Healthcare</a></li>
+                        <li><a href="#industries">Education</a></li>
+                        <li><a href="#industries">Retail</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#clients">Our Clients</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Newsletter</h4>
+                    <p style="font-size:0.85rem;color:rgba(255,255,255,0.4);margin-bottom:12px;">Get the latest updates
+                        on campaigns and advertising trends.</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Your Email" />
+                        <button type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Pipani Advertising. A Part of the PIPANI ADVERTISING Group. All Rights
+                    Reserved.</span>
+                <div class="links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        // ===== AOS INIT =====
+        AOS.init({
+            duration: 700,
+            once: true,
+            offset: 40,
+            easing: 'ease-out-cubic'
+        });
+
+        // ===== SCROLL PROGRESS =====
+        const scrollProgress = document.getElementById('scrollProgress');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = (scrollTop / docHeight) * 100;
+            scrollProgress.style.width = progress + '%';
+        });
+
+        // ===== NAVBAR =====
+        const navbar = document.getElementById('navbar');
+        const navLinks = document.getElementById('navLinks');
+        const menuToggle = document.getElementById('menuToggle');
+        const sections = document.querySelectorAll('section[id]');
+
+        window.addEventListener('scroll', () => {
+            // Add scrolled class
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Active nav link
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            document.querySelectorAll('.nav-links a:not(.btn-nav)').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ===== MOBILE MENU =====
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // ===== BACK TO TOP =====
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ===== COUNTER ANIMATION =====
+        const counters = document.querySelectorAll('.counter');
+        let counted = false;
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !counted) {
+                    counted = true;
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        const duration = 2000;
+                        const startTime = performance.now();
+
+                        function updateCounter(currentTime) {
+                            const elapsed = currentTime - startTime;
+                            const progress = Math.min(elapsed / duration, 1);
+                            const value = Math.floor(progress * target);
+                            counter.textContent = value;
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCounter);
+                            } else {
+                                counter.textContent = target;
+                            }
+                        }
+                        requestAnimationFrame(updateCounter);
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+
+        counters.forEach(c => counterObserver.observe(c));
+
+        // ===== FAQ ACCORDION =====
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // ===== SMOOTH SCROLL FOR ANCHOR LINKS =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    const offset = 80;
+                    const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+
+        console.log('🚀 Pipani Advertising — Premium Website Loaded');
+        console.log('📊 Made with ❤️ by Adnest Communications LLP');
+        console.log('💡 Advertising · PR · Massive Impact');
+    </script>
+</body>
+
+</html> });
+
+console.log('🚀 Pipani Advertising — Premium Website Loaded');
+console.log('📊 Made with ❤️ by Adnest Communications LLP');
+console.log('💡 Advertising · PR · Massive Impact');
+</script>
+</body>
+
+</html>

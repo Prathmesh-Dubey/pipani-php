@@ -1,0 +1,977 @@
+[21-Jul-2026 10:48:44 UTC] PHP Parse error:  Unclosed '{' on line 7 in /Users/chedo/Downloads/web/includes/auth.php on line 105
+[21-Jul-2026 10:48:44 UTC] PHP Parse error:  Unclosed '{' on line 7 in /Users/chedo/Downloads/web/includes/auth.php on line 105
+[23-Jul-2026 11:53:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani\pipani\admin\pages\portfolio.php on line 358
+[24-Jul-2026 09:56:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani\pipani\admin\pages\portfolio.php on line 397
+[25-Jul-2026 11:49:20 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 39
+[25-Jul-2026 11:51:03 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 39
+[25-Jul-2026 11:51:03 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 94
+[25-Jul-2026 12:23:58 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 39
+[25-Jul-2026 12:23:58 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 94
+[25-Jul-2026 12:23:58 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\prath\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 115
+[04-Aug-2026 08:06:11 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\functions.php on line 851
+[04-Aug-2026 08:06:11 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\functions.php on line 852
+[04-Aug-2026 08:22:24 UTC] PHP Fatal error:  Uncaught AssertionError: Name mismatch in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php:30
+Stack trace:
+#0 C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php(30): assert(false, 'Name mismatch')
+#1 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php on line 30
+[04-Aug-2026 08:23:30 UTC] PHP Fatal error:  Uncaught AssertionError: Deleted item still found in DB in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php:72
+Stack trace:
+#0 C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php(72): assert(false, 'Deleted item st...')
+#1 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_industries_crud.php on line 72
+[04-Aug-2026 08:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDashboardStats() in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php on line 9
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:24:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:24:56 UTC] PHP Fatal error:  Uncaught AssertionError: Admin 'Add Industry' button missing in Admin Mode in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php:32
+Stack trace:
+#0 C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php(32): assert(false, 'Admin 'Add Indu...')
+#1 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php on line 32
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Constant ADMIN_ACCESS already defined in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 4
+[04-Aug-2026 08:25:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 15
+[04-Aug-2026 08:25:22 UTC] PHP Fatal error:  Uncaught AssertionError: Industries Manager title missing in admin/pages/industries.php in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php:54
+Stack trace:
+#0 C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php(54): assert(false, 'Industries Mana...')
+#1 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php on line 54
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Constant ADMIN_ACCESS already defined in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 4
+[04-Aug-2026 08:25:50 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 15
+[04-Aug-2026 08:25:50 UTC] PHP Fatal error:  Uncaught AssertionError: Add modal missing in admin page in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php:56
+Stack trace:
+#0 C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php(56): assert(false, 'Add modal missi...')
+#1 {main}
+  thrown in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_frontend_simulation.php on line 56
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 53
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 108
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 129
+[04-Aug-2026 08:26:20 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 187
+[04-Aug-2026 08:26:21 UTC] PHP Warning:  Constant ADMIN_ACCESS already defined in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 4
+[04-Aug-2026 08:26:21 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\admin\pages\industries.php on line 15
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2625
+[04-Aug-2026 09:51:45 UTC] PHP Fatal error:  Cannot redeclare resolveImgUrl() (previously declared in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php:367) in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 367
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:52:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 2627
+[04-Aug-2026 09:53:18 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\functions.php on line 707
+[04-Aug-2026 09:53:18 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\functions.php on line 708
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 29
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 30
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 31
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 35
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 52
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 81
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:54:35 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 09:55:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:08 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:09 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:51 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:51 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Warning:  Undefined array key "title" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:05:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 2627
+[04-Aug-2026 10:07:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 29
+[04-Aug-2026 10:07:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 30
+[04-Aug-2026 10:07:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 31
+[04-Aug-2026 10:07:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 35
+[04-Aug-2026 10:07:31 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 52
+[04-Aug-2026 10:07:31 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 81
+[04-Aug-2026 10:26:24 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 29
+[04-Aug-2026 10:26:24 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 30
+[04-Aug-2026 10:26:24 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 31
+[04-Aug-2026 10:26:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 35
+[04-Aug-2026 10:26:25 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 52
+[04-Aug-2026 10:26:25 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 81
+[04-Aug-2026 10:26:34 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 10:26:34 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 10:26:34 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 52
+[04-Aug-2026 10:26:34 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index_v2.php on line 81
+[04-Aug-2026 11:27:43 UTC] PHP Warning:  include(c:/Users/shree/Downloads/pipani-main/pipani-main/templates/frontend/index_v2.php): Failed to open stream: No such file or directory in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_full_frontend_v2.php on line 14
+[04-Aug-2026 11:27:43 UTC] PHP Warning:  include(): Failed opening 'c:/Users/shree/Downloads/pipani-main/pipani-main/templates/frontend/index_v2.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_full_frontend_v2.php on line 14
+[04-Aug-2026 11:27:43 UTC] PHP Warning:  include(c:/Users/shree/Downloads/pipani-main/pipani-main/templates/frontend/index_v2.php): Failed to open stream: No such file or directory in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_full_frontend_v2.php on line 63
+[04-Aug-2026 11:27:43 UTC] PHP Warning:  include(): Failed opening 'c:/Users/shree/Downloads/pipani-main/pipani-main/templates/frontend/index_v2.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\shree\.gemini\antigravity-ide\brain\21c070ea-f98f-4b02-9b04-e90d322e95cb\scratch\test_full_frontend_v2.php on line 63
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 29
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 30
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 31
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\config.php on line 35
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 52
+[04-Aug-2026 11:28:01 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 81
+[05-Aug-2026 06:28:57 UTC] PHP Warning:  Undefined array key "avatar" in C:\Users\shree\Downloads\pipani-main\pipani-main\includes\functions.php on line 386
+[05-Aug-2026 09:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveImgUrl() in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php:23
+Stack trace:
+#0 C:\Users\shree\Downloads\pipani-main\pipani-main\index.php(25): require_once()
+#1 {main}
+  thrown in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 23
+[05-Aug-2026 09:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveImgUrl() in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php:23
+Stack trace:
+#0 C:\Users\shree\Downloads\pipani-main\pipani-main\index.php(25): require_once()
+#1 {main}
+  thrown in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 23
+[05-Aug-2026 09:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resolveImgUrl() in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php:23
+Stack trace:
+#0 C:\Users\shree\Downloads\pipani-main\pipani-main\index.php(25): require_once()
+#1 {main}
+  thrown in C:\Users\shree\Downloads\pipani-main\pipani-main\templates\frontend\index.php on line 23
+[11-Aug-2026 06:49:21 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 06:49:21 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 06:49:21 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 06:49:36 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 06:49:36 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 06:49:36 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 06:49:51 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 06:49:51 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 06:49:51 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 06:50:17 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 06:50:17 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 06:50:17 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 06:55:37 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 06:55:37 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 06:55:37 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:03:46 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:03:46 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:03:46 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:04:40 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:04:40 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:04:40 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:05:01 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:05:01 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:05:01 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:05:20 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:05:20 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:05:20 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:05:26 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:05:26 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:05:26 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:05:32 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:05:32 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:05:32 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:16:52 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:16:52 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:16:52 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:17:01 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:17:01 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:17:01 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:18:14 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:18:14 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:18:14 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:18:23 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:18:23 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:18:23 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:18:35 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:18:35 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:18:35 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:18:51 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:18:51 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:18:51 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:04 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:04 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:04 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:21 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:21 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:21 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:30 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:30 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:30 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:39 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:39 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:39 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:50 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:50 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:50 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:42:59 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:42:59 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:42:59 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:43:09 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:43:09 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:43:09 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:43:23 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:43:23 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:43:23 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:43:35 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:43:35 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:43:35 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:44:06 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:44:06 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:44:06 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 07:54:17 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 07:54:17 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 07:54:17 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 09:25:19 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 09:25:19 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 09:25:19 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 09:25:44 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:25:44 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:25:45 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2599
+[11-Aug-2026 09:25:45 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2604
+[11-Aug-2026 09:25:45 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 09:25:45 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 09:25:45 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:30:25 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2599
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2604
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 09:30:25 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:30:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2594
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2599
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2604
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3362
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3363
+[11-Aug-2026 09:30:59 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3364
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:40:44 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:40:44 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:55:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:55:32 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:58:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:58:02 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:58:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:58:28 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:59:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:59:26 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 09:59:55 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 09:59:55 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 09:59:55 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 10:03:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 10:03:59 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 10:17:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2679
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2684
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $aboutImage in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 2689
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3447
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3448
+[11-Aug-2026 10:17:05 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3449
+[12-Aug-2026 07:41:57 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3450
+[12-Aug-2026 07:41:57 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3451
+[12-Aug-2026 07:41:57 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3452
+[12-Aug-2026 07:42:05 UTC] PHP Warning:  Undefined variable $clientsData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3450
+[12-Aug-2026 07:42:05 UTC] PHP Warning:  Undefined variable $processData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3451
+[12-Aug-2026 07:42:05 UTC] PHP Warning:  Undefined variable $whyData in C:\Users\shree\Downloads\pipani-main\pipani-main\media.php on line 3452
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2687
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2692
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:52:48 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2687
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2692
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:52:55 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2687
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2692
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:53:01 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2682
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2687
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2692
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:56:24 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:56:36 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:56:36 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:56:36 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:56:41 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:56:41 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:56:41 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:33 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:33 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:33 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:46 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:46 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:46 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:48 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:48 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:48 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3605
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3606
+[13-Aug-2026 08:57:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3607
+[13-Aug-2026 09:03:02 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:03:02 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:03:02 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:03:04 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:03:04 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:03:04 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:03:06 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:03:06 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:03:06 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "slug" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 117
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "tagline" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 118
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "how_it_works" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 122
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "formats" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 123
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "target_audience" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 125
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "applications" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 126
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "gallery" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 127
+[13-Aug-2026 09:03:32 Europe/Berlin] PHP Warning:  Undefined array key "cta_text" in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\functions.php on line 128
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:03:34 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:04:36 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:05:04 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:12:07 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:12:11 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:12:17 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 99
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 104
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 109
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 125
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 132
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 137
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 142
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:12:32 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 99
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 104
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 109
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 125
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 132
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 137
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 142
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:12:43 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:14:37 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2766
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2771
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2776
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3689
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3690
+[13-Aug-2026 09:14:40 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3691
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 09:17:59 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 110
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 126
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 131
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 136
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 143
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 148
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 153
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 09:18:11 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 09:19:14 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 09:26:30 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 359
+[13-Aug-2026 09:26:30 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 398
+[13-Aug-2026 09:26:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 359
+[13-Aug-2026 09:26:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 398
+[13-Aug-2026 09:27:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 359
+[13-Aug-2026 09:27:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\admin\pages\portfolio.php on line 398
+[13-Aug-2026 09:51:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 109
+[13-Aug-2026 09:51:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 110
+[13-Aug-2026 09:51:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 112
+[13-Aug-2026 09:51:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 113
+[13-Aug-2026 09:59:35 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 109
+[13-Aug-2026 09:59:35 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 110
+[13-Aug-2026 09:59:35 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 111
+[13-Aug-2026 09:59:35 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 112
+[13-Aug-2026 09:59:35 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\install\index.php on line 113
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:42:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:42:57 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:42:57 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:42:57 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:43:09 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:43:09 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:43:09 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:43:13 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:43:13 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:43:13 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:43:25 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:43:25 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:43:25 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:44:38 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:44:38 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:44:38 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:44:42 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:44:42 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:44:42 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:44:52 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:44:52 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:44:52 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:46:37 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:46:37 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:46:37 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:47:35 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:47:35 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:47:35 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:47:37 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:47:37 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:47:37 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:47:43 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:47:43 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:47:43 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:47:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:47:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:47:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:49:03 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:49:03 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:49:03 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:50:23 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:50:23 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:50:23 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:52:35 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3777
+[13-Aug-2026 11:52:35 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3778
+[13-Aug-2026 11:52:35 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3779
+[13-Aug-2026 11:52:39 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3777
+[13-Aug-2026 11:52:39 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3778
+[13-Aug-2026 11:52:39 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3779
+[13-Aug-2026 11:52:41 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3777
+[13-Aug-2026 11:52:41 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3778
+[13-Aug-2026 11:52:41 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3779
+[13-Aug-2026 11:52:43 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3777
+[13-Aug-2026 11:52:43 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3778
+[13-Aug-2026 11:52:43 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3779
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:54:57 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:57:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 27
+[13-Aug-2026 11:57:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 28
+[13-Aug-2026 11:57:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 29
+[13-Aug-2026 11:57:04 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 33
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:57:23 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 11:57:29 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:09:16 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:09:20 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:09:30 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:09:30 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:09:30 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:17:15 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:17:15 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:17:15 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:17:32 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 110
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 126
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 131
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 136
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 143
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 148
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 153
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:17:42 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 110
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 126
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 131
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 136
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 143
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 148
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 153
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:17:56 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 110
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 126
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 131
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 136
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 143
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 148
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 153
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:09 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:13 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 110
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 115
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 120
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 126
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 131
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 136
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 143
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 148
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $action in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 153
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:21 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:26 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:38 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:39 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:41 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2777
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2782
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2787
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3700
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3701
+[13-Aug-2026 12:18:42 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3702
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:23:30 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:23:31 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:23:31 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:23:31 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:23:40 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:24:41 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:26:54 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:29:00 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:34:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 27
+[13-Aug-2026 12:34:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 28
+[13-Aug-2026 12:34:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 29
+[13-Aug-2026 12:34:13 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\includes\config.php on line 33
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:35:34 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:35:41 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:35:44 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2814
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2819
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 2824
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3737
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3738
+[13-Aug-2026 12:35:53 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-main (1)\pipani-main\media.php on line 3739
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 12:39:59 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 12:41:05 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 109
+[13-Aug-2026 12:41:05 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 110
+[13-Aug-2026 12:41:05 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 112
+[13-Aug-2026 12:41:05 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 113
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 12:41:14 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:25:50 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 109
+[13-Aug-2026 13:25:50 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 110
+[13-Aug-2026 13:25:50 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 111
+[13-Aug-2026 13:25:50 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 112
+[13-Aug-2026 13:25:50 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 113
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:26:18 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:26:22 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:31:28 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:31:35 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:31:36 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:31:38 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[13-Aug-2026 13:47:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\admin\pages\content.php on line 488

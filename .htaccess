@@ -1,0 +1,48 @@
+# .htaccess
+Options -Indexes
+DirectoryIndex index.php index.html
+
+# Protect sensitive directories
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect config files
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# PHP settings
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 300
+
+# Enable rewrite
+RewriteEngine On
+
+# Redirect index.html to index.php if it exists
+RewriteCond %{REQUEST_URI} ^/index\.html$
+RewriteRule ^index\.html$ /index.php [R=301,L]
+
+# Remove .php extension (optional)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Error pages
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+
+# Cache static assets
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
