@@ -1,9 +1,9 @@
 <?php
 // Database Configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'pipani');
-define('DB_USER', 'root');
-define('DB_PASS', '1234');
+define('DB_NAME', 'pipaniadvertising_db');
+define('DB_USER', 'pipaniadvertising_db');
+define('DB_PASS', 'BCLCEa8kZaTMjrqBbjuq');
 define('DB_PORT', '3306');
 
 // Site Configuration
@@ -14,7 +14,7 @@ define('UPLOAD_DIR', __DIR__ . '/../uploads/');
 define('TIMEZONE', 'Asia/Kolkata');
 
 // Security
-define('SALT', 'bbd5923e7078b6c1621e8dd04f64a4c92e5580171511d9f049b46ee5e9faaee8');
+define('SALT', '916ccd78c53035f622ac5ac6af9ac04eb361fb869b83fe599fe08888b59756d6');
 define('SESSION_LIFETIME', 3600);
 
 // Error Reporting

@@ -842,12 +842,30 @@ function uploadFile($file, $targetDir = 'images')
 
 function resolveImgUrl($path, $fallback = '')
 {
-    if (empty($path)) return $fallback;
+    if (empty($path)) $path = $fallback;
+    if (empty($path)) return '';
+
     if (strpos($path, 'data:image/') === 0) return $path;
     if (preg_match('/^https?:\/\//i', $path)) return $path;
-    if (strpos($path, 'uploads/') === 0) return SITE_URL . $path;
-    if (strpos($path, 'images/') === 0) return SITE_URL . 'uploads/' . $path;
-    return SITE_URL . 'uploads/images/' . $path;
+
+    $relPath = '';
+    if (strpos($path, 'uploads/') === 0) {
+        $relPath = substr($path, 8);
+    } elseif (strpos($path, 'images/') === 0) {
+        $relPath = $path;
+    } else {
+        $relPath = 'images/' . $path;
+    }
+
+    if (defined('UPLOAD_DIR') && file_exists(UPLOAD_DIR . $relPath) && is_file(UPLOAD_DIR . $relPath)) {
+        return SITE_URL . 'uploads/' . $relPath;
+    }
+
+    if ($path !== $fallback && !empty($fallback)) {
+        return resolveImgUrl($fallback);
+    }
+
+    return '';
 }
 
 function generateThumbnail($filepath, $filename)

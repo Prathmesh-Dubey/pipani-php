@@ -5,15 +5,30 @@
 if (!function_exists('resolveImgUrl')) {
     function resolveImgUrl($path, $fallback = '')
     {
-        if (empty($path))
-            return $fallback;
-        if (preg_match('/^https?:\/\//i', $path))
-            return $path;
-        if (strpos($path, 'uploads/') === 0)
-            return SITE_URL . $path;
-        if (strpos($path, 'images/') === 0)
-            return SITE_URL . 'uploads/' . $path;
-        return SITE_URL . 'uploads/images/' . $path;
+        if (empty($path)) $path = $fallback;
+        if (empty($path)) return '';
+
+        if (strpos($path, 'data:image/') === 0) return $path;
+        if (preg_match('/^https?:\/\//i', $path)) return $path;
+
+        $relPath = '';
+        if (strpos($path, 'uploads/') === 0) {
+            $relPath = substr($path, 8);
+        } elseif (strpos($path, 'images/') === 0) {
+            $relPath = $path;
+        } else {
+            $relPath = 'images/' . $path;
+        }
+
+        if (defined('UPLOAD_DIR') && file_exists(UPLOAD_DIR . $relPath) && is_file(UPLOAD_DIR . $relPath)) {
+            return SITE_URL . 'uploads/' . $relPath;
+        }
+
+        if ($path !== $fallback && !empty($fallback)) {
+            return resolveImgUrl($fallback);
+        }
+
+        return '';
     }
 }
 
@@ -382,7 +397,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
     // Navbar Logo
     if ($action === 'quick_edit_logo') {
         if (isset($_FILES['logo_image']) && !empty($_FILES['logo_image']['name'])) {
-            $uploadResult = uploadServiceImage($_FILES['logo_image']);
+            $uploadResult = uploadFile($_FILES['logo_image'], 'images');
             if ($uploadResult['success']) {
                 updateSetting('logo', $uploadResult['path']);
             }
@@ -2776,7 +2791,7 @@ unset($_SESSION['contact_success'], $_SESSION['contact_error']);
         <div class="container">
             <?php
             $navLogo = getSetting('logo', '');
-            $navLogoUrl = !empty($navLogo) ? resolveImgUrl($navLogo) : SITE_URL . 'uploads/images/logo.png';
+            $navLogoUrl = !empty($navLogo) ? resolveImgUrl($navLogo) : resolveImgUrl('logo.png');
             $logoDisplayType = getSetting('logo_display_type', 'both');
             ?>
             <div style="display:flex;align-items:center;gap:8px;position:relative;">
@@ -2935,14 +2950,14 @@ unset($_SESSION['contact_success'], $_SESSION['contact_error']);
             </div>
 
             <!-- ===== CAMPAIGN SHOWCASE ===== -->
+            <?php if ($isLoggedInAdmin): ?>
+                <div style="text-align: right; margin-bottom: 10px; position: relative; z-index: 20;">
+                    <button type="button" class="admin-quick-add-btn" style="margin:0; display: inline-block;"
+                        onclick="openAddPortfolioModal()"><i class="fas fa-plus-circle"></i> Add Portfolio Item</button>
+                </div>
+            <?php endif; ?>
             <div class="portfolio-slider-container" id="portfolio" data-aos="fade-up" data-aos-delay="200"
                 style="position: relative;">
-                <?php if ($isLoggedInAdmin): ?>
-                    <div style="position: absolute; top: -35px; right: 0; z-index: 20;">
-                        <button type="button" class="admin-quick-add-btn" style="margin-top:0;"
-                            onclick="openAddPortfolioModal()"><i class="fas fa-plus-circle"></i> Add Portfolio Item</button>
-                    </div>
-                <?php endif; ?>
                 <div style="position: relative; width: 100%; display: flex; align-items: center; gap: 16px;">
                     <div class="portfolio-slider" id="portfolioSlider">
                         <?php if (!empty($portfolio)): ?>
@@ -3788,7 +3803,7 @@ unset($_SESSION['contact_success'], $_SESSION['contact_error']);
                         <div style="background:var(--primary-gradient);padding:12px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;margin-bottom:8px;">
                             <?php
                             $curLogo = getSetting('logo', '');
-                            $curLogoUrl = !empty($curLogo) ? resolveImgUrl($curLogo) : SITE_URL . 'uploads/images/logo.png';
+                            $curLogoUrl = !empty($curLogo) ? resolveImgUrl($curLogo) : resolveImgUrl('logo.png');
                             ?>
                             <img src="<?= $curLogoUrl ?>" id="logoCurrentPreview" alt="Current Logo" style="max-height:60px;width:auto;object-fit:contain;">
                         </div>

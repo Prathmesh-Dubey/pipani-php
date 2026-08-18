@@ -981,3 +981,37 @@ Stack trace:
 [18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
 [18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
 [18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[18-Aug-2026 08:48:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 27
+[18-Aug-2026 08:48:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 28
+[18-Aug-2026 08:48:04 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 29
+[18-Aug-2026 08:48:04 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 33
+[18-Aug-2026 09:10:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 26
+[18-Aug-2026 09:10:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 27
+[18-Aug-2026 09:10:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 28
+[18-Aug-2026 09:10:38 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\includes\config.php on line 32
+[18-Aug-2026 09:17:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 109
+[18-Aug-2026 09:17:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 110
+[18-Aug-2026 09:17:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 111
+[18-Aug-2026 09:17:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 112
+[18-Aug-2026 09:17:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\install\index.php on line 113
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[18-Aug-2026 09:17:53 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[18-Aug-2026 09:35:44 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImgUrl in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2814
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2819
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $aboutImage in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 2824
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[18-Aug-2026 12:46:01 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
