@@ -975,3 +975,9 @@ Stack trace:
 [13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
 [13-Aug-2026 13:31:40 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
 [13-Aug-2026 13:47:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\admin\pages\content.php on line 488
+[18-Aug-2026 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[18-Aug-2026 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[18-Aug-2026 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
+[18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $clientsData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3737
+[18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $processData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3738
+[18-Aug-2026 08:13:49 Europe/Berlin] PHP Warning:  Undefined variable $whyData in C:\Users\prath\Downloads\pipani-php-main\pipani-php-main\media.php on line 3739
